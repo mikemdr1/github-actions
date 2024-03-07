@@ -20,4 +20,4 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: ${{ github.repository }}:$( TZ=America/Mexico_City date +%Y%M%d_%H%m%S )
+        tags: ${{ github.repository }}
