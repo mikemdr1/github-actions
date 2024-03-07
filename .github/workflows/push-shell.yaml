@@ -1,4 +1,5 @@
-run-name: ${{ github.repository }} -> Shell
+name: Push -> Shell
+run-name: ${{ github.repository }} -> Shell / v2
 on: push
 jobs:
   build:
