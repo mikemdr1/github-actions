@@ -1,4 +1,5 @@
 name: Docker Publishing
+run-name: Docker publising is running
 on: push
 jobs:
     docker:
