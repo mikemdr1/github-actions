@@ -10,11 +10,11 @@ jobs:
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
     - run: echo "gitHub Event = ${{ github.event }}"
-    - run: echo "gitHub EventName = ${{ github.event_name }}"
+    - run: echo "gitHub EventName = ${{ github.event_name }}" # Push | Pull
     - run: echo "gitHub Ref = ${{ github.ref }}"
-    - run: echo "gitHub RefName = ${{ github.ref_name }}"
+    - run: echo "gitHub RefName = ${{ github.ref_name }}" # Branch Name
     - run: echo "gitHub Sha = ${{ github.sha }}"
-    - run: echo "gitHub WorkflowSha = ${{ github.workflow_sha }}"
+    - run: echo "gitHub WorkflowSha = ${{ github.workflow_sha }}" 
     - run: echo "gitHub RunID = ${{ github.run_id }}"
     - run: echo "gitHub RunNumber = ${{ github.run_number }}"
     - run: echo "Fecha = $( TZ="America/Mexico_City" date +%Y%M%d_%H%m%S )"
