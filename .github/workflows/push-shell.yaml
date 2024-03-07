@@ -1,5 +1,4 @@
-name: Docker Image CI
-run-name: ${{ github.repository }} :: Shell
+run-name: ${{ github.repository }} -> Shell
 on: push
 jobs:
   build:
